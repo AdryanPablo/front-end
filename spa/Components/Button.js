@@ -6,7 +6,7 @@ export default function Button(name) {
     Button.innerText = `${name}`
     Button.setAttribute('class', 'Button')
     Button.setAttribute('id', `Button${name}`)
-    Button.onclick = () => console.log('Click')
+    Button.onclick = () => console.log(`Click on ${name}`)
 
     return Button
 }

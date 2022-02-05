@@ -1,6 +1,6 @@
 export default function Footer() {
 
-    const Footer = document.createElement('div')
+    const Footer = document.createElement('footer')
     Footer.setAttribute('class', 'Footer')
     
     let content = document.createElement('p')
