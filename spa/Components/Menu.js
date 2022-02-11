@@ -1,18 +1,10 @@
-import Button from './Button.js'
+import List from './List.js'
 
 export default function Menu() {
-
-    const List = document.createElement('ul')
-    List.setAttribute('class', 'List')
-
-    List.append(Button('Home'))
-    List.append(Button('Login'))
-    List.append(Button('About'))
-
     const Menu = document.createElement('nav')
-    Menu.setAttribute('class', 'Menu')
+    Menu.classList.add('Menu')
 
-    Menu.append(List)
+    Menu.appendChild(List())
 
     return Menu
 }

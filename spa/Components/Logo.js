@@ -1,9 +1,8 @@
 export default function Logo() {
-
     const Logo = document.createElement('h1')
-    Logo.setAttribute('class', 'Logo')
+    Logo.classList.add('Logo')
     
-    Logo.innerText = `App JS`
+    Logo.textContent = `SPA`
 
     return Logo
 }

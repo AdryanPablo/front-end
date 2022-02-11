@@ -1,11 +1,10 @@
 import CurrentPage from './Pages.js'
 
 export default function Main() {
-
     const Main = document.createElement('main')
-    Main.setAttribute('class', 'Main')
+    Main.classList.add('Main')
 
-    Main.append(CurrentPage())
-
+    Main.appendChild(CurrentPage('Home'))
+    
     return Main
 }

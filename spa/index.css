@@ -40,15 +40,26 @@ body {
 }
 
 .Button {
-    flex-grow: 1;
-    padding: 1%;
-    text-align: center;
-    font-size: 1.2em;
-    color: var(--azulClaro);
+    flex-basis: 33%;
 }
 
 .Button:hover {
+    color: var(--azulEscuro);
     background-color: var(--azulClaro);
+}
+
+.Anchor {
+    display: inline-block;
+    width: 100%;
+    height: 2em;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+    color: var(--azulClaro);
+}
+
+.Anchor:hover {
     color: var(--azulEscuro);
 }
 

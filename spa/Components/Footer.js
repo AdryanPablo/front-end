@@ -1,12 +1,11 @@
 export default function Footer() {
-
     const Footer = document.createElement('footer')
-    Footer.setAttribute('class', 'Footer')
+    Footer.classList.add('Footer')
     
-    let content = document.createElement('p')
-    content.innerText = 'Footer'
+    const Paragraph = document.createElement('p')
+    Paragraph.textContent = 'Footer'
 
-    Footer.append(content)
+    Footer.append(Paragraph)
 
     return Footer
 }

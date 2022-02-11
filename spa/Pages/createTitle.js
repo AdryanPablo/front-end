@@ -1,8 +1,8 @@
 export default function createTitle(name) {
-
     const Title = document.createElement('h1')
-    Title.setAttribute('class', 'Title')
-    Title.innerText = `${name}`
+    Title.classList.add('Title')
+    
+    Title.textContent = `${name}`
 
     return Title
 }
