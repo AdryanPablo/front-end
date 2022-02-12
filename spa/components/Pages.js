@@ -1,6 +1,6 @@
-import Home from '../Pages/Home.js'
-import Login from '../Pages/Login.js'
-import About from '../Pages/About.js'
+import Home from '../pages/Home.js'
+import Login from '../pages/Login.js'
+import About from '../pages/About.js'
 
 window.addEventListener('hashchange', () => {
     const Main = document.querySelector('.Main')

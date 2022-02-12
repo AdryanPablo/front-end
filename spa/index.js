@@ -1,6 +1,6 @@
-import Header from './Components/Header.js'
-import Main from './Components/Main.js'
-import Footer from './Components/Footer.js'
+import Header from './components/Header.js'
+import Main from './components/Main.js'
+import Footer from './components/Footer.js'
 
 const root = document.querySelector('body')
 
